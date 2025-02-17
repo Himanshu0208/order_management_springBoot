@@ -8,11 +8,11 @@
 		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>in</groupId>
-	<artifactId>Rest3</artifactId>
+	<groupId>org.trigear</groupId>
+	<artifactId>OrderManagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Rest3</name>
-	<description>Data JPA use</description>
+	<name>OrderManagement</name>
+	<description>OrderManagement API</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -44,11 +44,16 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.36</version>
+			<scope>provided</scope>
 		</dependency>
+
+
 	</dependencies>
 
 	<build>
